@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+     <head>
+          <meta charset="utf-8">
+          <title>Css</title>
+    
+          <!--JAVASCRIPT-->
+          <script>
+              
+              //funcao
+              function acao(){
+                  
+                  //obter elemento h1
+                  var texto = document.getElementsByTagName("h1")[0];
+                  
+                  //CSS
+                  texto.style.color = "#FF0000";
+                  texto.style.fontSize = "20px";
+                  
+                  //alterar o conteudo
+                  texto.innerHTML = "curso de JavaScript";
+              }
+          
+          </script>
+     </head>
+    
+     <body>
+         
+         <h1>JavaScript</h1>
+         <button onclick = "acao()">Clique aqui</button>
+     
+     </body>
+</html>

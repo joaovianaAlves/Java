@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+     <head>
+          <meta charset="utf-8">
+          <title>entradad_de_teclado</title>
+    
+          <!--JAVASCRIPT-->
+          <script>
+            /*
+             onKeyUp:Exibe o caracteree depois 
+             executa a açao.
+             
+             onKeyDown:Executa a açao depois exibe o caractere. 
+              
+             onKeyPress:Executa a açao depois exibe o caractere.
+          
+             Nao tem suporte pra teclas especiais:
+             F1..F12,ALT,CTRL,SHIFT...
+            */
+             
+              function exibir(){
+
+              //exibir o valor do camppo text
+                  
+               var campo = document.getElementById("campo").value;
+               
+                  alert(campo);   
+               
+              }
+              
+          </script>
+     </head>
+    
+     <body>
+         
+         <input type="text" id="campo" onkeyup="exibir()">
+        
+     </body>
+</html>
